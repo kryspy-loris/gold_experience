@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>535</width>
+    <height>599</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Client Program</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:white</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="additem_btn">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>90</y>
+      <width>391</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 18pt;
+background-color: #f0ebeb;
+
+border-radius: 10;
+color: black</string>
+    </property>
+    <property name="text">
+     <string>добавить товар</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="removeitem_btn">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>180</y>
+      <width>391</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 18pt;
+background-color: #f0ebeb;
+
+border-radius: 10;
+color: black</string>
+    </property>
+    <property name="text">
+     <string>удалить товар</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sell_hystory_btn">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>270</y>
+      <width>391</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 18pt;
+background-color: #f0ebeb;
+
+border-radius: 10;
+color: black</string>
+    </property>
+    <property name="text">
+     <string>история продаж</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="settings_btn">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>360</y>
+      <width>391</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 18pt;
+background-color: #f0ebeb;
+
+border-radius: 10;
+color: black</string>
+    </property>
+    <property name="text">
+     <string>настройки</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="item_list_btn">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>450</y>
+      <width>391</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 18pt;
+background-color: #f0ebeb;
+
+border-radius: 10;
+color: black</string>
+    </property>
+    <property name="text">
+     <string>список товаров</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>461</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 27pt;
+color: black
+
+</string>
+    </property>
+    <property name="text">
+     <string>МЕНЮ АДМИНИСТРАТОРА</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="move_admin_pass">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 20pt;
+background-color: #f0ebeb;
+
+border-radius: 7;
+color: black</string>
+    </property>
+    <property name="text">
+     <string>	←</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
